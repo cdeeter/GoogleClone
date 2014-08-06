@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+div {
+	background-color: white;
+
+}
+
+#nav {
+	padding: 15px 30px 0px 0px;
+	display: inline;
+	float: right;
+	text-align: right;
+	font-family: Arial;
+	font-size: 13px;
+
+}
+
+
+a:link {
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Arial;
+	color: black;
+	text-decoration: underline;
+
+}
+
+a:visited {
+	font-family: Arial;
+	color: black;
+	text-decoration: none;
+
+}
+
+a:active {
+	font-family: Arial;
+	color: black;
+	text-decoration: underline;
+
+}
+
+.grid {
+	position: absolute;
+	display: inline;
+	height: 23px;
+	width: 23px;
+	margin: 4px 0px 0px -5px;
+}
+
+
+.signin {
+	display: inline;
+	height: 30px;
+	width: 75px;
+	background: linear-gradient(#5894EE, #307BEA);
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border: none;
+	border-radius: 1px; 
+}
+
+
+#middle {
+	margin: auto;
+	text-align: center;
+}
+
+
+#middlespace {
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+
+
+#searcharea {
+	position: relative;
+	margin: auto;
+	display: block;
+	padding: 10px;
+}
+
+
+input {
+	position: relative;
+	width: 600px;
+	height: 10px;
+	padding: 10px;
+	border: 1px solid #CFCFCF;
+
+}
+
+
+.searchbar:focus {
+	border: 1px solid blue;
+}
+
+
+.searchbar:hover {
+	border: 1px solid black;
+
+}
+
+
+.mic {
+	position: absolute;
+	display: inline;
+	height: 25px;
+	width: 22px;
+	margin: 3px 8px 0px -30px;
+}
+
+
+.google {
+	height: 100px;
+	width: 300px;
+	margin: auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+
+.search {
+	position: relative;
+	margin: auto;
+
+}
+
+
+#buttons {
+	display: inline;
+	position: relative;
+	margin: auto;
+}
+
+.search {
+	background: linear-gradient(#EFEFEF, #EDEDED);
+	padding: 8px;
+	border: 1px solid #CFCFCF;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+
+
+.search:hover {
+	border: 1px solid black;
+}
+
+.search:focus {
+	border: 1px solid blue;
+}
+
+
+.lucky {
+	background: linear-gradient(#EFEFEF, #EDEDED);
+	padding: 8px;
+	border: 1px solid #CFCFCF;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.lucky:hover {
+	border: 1px solid black;
+
+}
+
+.lucky:focus {
+	border: 1px solid blue;
+}
+
+
+#bottomspace {
+	height: 190px;
+	display: block;
+
+}
+
+.footer {
+	display: block;
+	position: fixed;
+	background-color: #EDEDED;
+	height: 40px;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+#bottomlinks {
+	display: block;
+	background-color: #EDEDED;
+	padding: 10px;
+	height: 25px;
+	font-family: Arial;
+	font-size: 13px;
+	font-color: gray;
+
+}
+
+.bottomlinksleft {
+	float: left;
+	margin: 5px 20px 5px 20px;
+	color: gray;
+}
+
+.bottomlinksright {
+	float: right;
+	margin: 5px 10px 5px 10px;
+	color: gray;
+}
